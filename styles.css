@@ -90,7 +90,6 @@ hr {
 .contact-message {
     width: 50%;
     margin: auto;
-    text-align: justify;
 }
 .name-text{
     margin: auto;
@@ -197,25 +196,23 @@ hr {
         width: 100%;
         align-items: center;
         text-align: center;
-        font-size: 1.5rem;
     }
-
+    .mount-img, .top-cloud, .btm-cloud{
+    display: none;
+    }
+    .top-container{
+       padding: 50px;
+    }
+    .intro{
+        padding: 5px;
+    }
     .top-container,
     .middle-container,
-    .footer {
+    .footer, .intro {
         justify-content: center;
         margin: auto;
         width: 100%;
     }
-
-    .top-cloud {
-        top: 80px;
-    }
-
-    .btm-cloud {
-        bottom: 250px;
-    }
-
     .footer {
         margin-top: 50px;
     }
